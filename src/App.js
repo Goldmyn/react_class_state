@@ -67,7 +67,7 @@ class App extends React.Component {
 
     return (
       <div className="App">
-        <h1>User Profile</h1>
+        <h1 className="boldText">User Profile</h1>
         <button className="button" onClick={this.toggleShow}>
           {show ? "Hide Profile" : "Show Profile"}
         </button>

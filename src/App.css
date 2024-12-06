@@ -2,14 +2,16 @@
   text-align: center;
 }
 
-body {
-  background-color: rgb(139, 146, 98);
-  color: aliceblue;
+.boldText {
+  font-weight: 800;
+  font-size: x-large;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: rgb(44, 118, 228);
+  color: aliceblue;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -43,11 +45,13 @@ body {
 }
 
 .button {
-  background-color: rgba(110, 121, 219, 0.562);
+  background-color: rgba(238, 234, 24, 0.589);
   border-radius: 10px;
   border: transparent;
   padding: 10px;
   outline: none;
+  font-weight: bolder;
+  text-transform: uppercase;
 }
 
 .button:hover {
